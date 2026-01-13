@@ -49,8 +49,7 @@ public abstract class ArrayStack implements Stack {
 	 */
 	public Object pop2() {
 		if(this.isEmpty()) {return null;}
-		t = t-1;
-		return S[this.size()];
+		return S[t--];
 	}
 	/**
 	 * Push method for an array based stack
