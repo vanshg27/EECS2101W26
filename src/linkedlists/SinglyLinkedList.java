@@ -40,6 +40,11 @@ public class SinglyLinkedList {
 		size++;
 		
 	}
+	/**
+	 * removes last element from list
+	 * Uses O(n) time
+	 */
+	
 	public void removeLast() {
 		if(list.isEmpty()) {
 			return;
@@ -47,10 +52,16 @@ public class SinglyLinkedList {
 		for(Node i : list) {
 			if(i.getNext() != null) {
 				tail = i;
+				tail.setNext(null);
+				size--;
 			}
-			tail.setNext(null);
-			size--;
 		}
+	}
+	public boolean isEmpty() {
+		if(size == 0) {
+			return true;
+		}
+		return false;
 	}
 
 }

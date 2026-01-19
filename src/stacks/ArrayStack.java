@@ -49,11 +49,11 @@ public abstract class ArrayStack implements Stack {
 	 */
 	public Object pop2() {
 		if(this.isEmpty()) {return null;}
-		return S[t--];
+		t--; //decrement t first 
+		return S[t];
 	}
 	/**
 	 * Push method for an array based stack
-	 * @return 
 	 * @throws FullStackException
 	 * Limitation of Array based implementation
 	 * Solution: Extend the stack
