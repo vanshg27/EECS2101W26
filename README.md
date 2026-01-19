@@ -24,8 +24,8 @@ Rather than just storing homework solutions, this repo focuses on:
 | ✅ | **01. Introduction** | Course overview, Intro to Algo Analysis |
 | ✅ | **02. Linked Lists** | Singly vs Doubly Linked Lists, Pointer manipulation |
 | ✅ | **03. Stacks** | LIFO principle, Array vs List implementation, Push/Pop ops |
-| ⬜ | **04. Queues** | FIFO principle, Circular Arrays |
-| ⬜ | **05-06. Algorithm Analysis** | Big O, Asymptotic Analysis, Growth rates |
+| ✅ | **04. Queues** | FIFO principle, Circular Arrays |
+| ✅ | **05-06. Algorithm Analysis** | Big O, Asymptotic Analysis, Growth rates |
 | ⬜ | **07. Recursion** | Logarithms, Call stacks, Base cases |
 | ⬜ | **08. Deques & Arrays** | Double-ended queues, Extendable arrays |
 | ⬜ | **09-12. Trees & BST** | Binary Trees, BSTs, AVL Trees (Balancing) |
